@@ -18,7 +18,6 @@
   <div>&nbsp;</div>
   
   <!-- profile logo 个人资料徽标 -->
-  <!-- profile logo 个人资料徽标 -->
   <div>
     <img src="https://img.shields.io/badge/Buddha_like-佛系-blue" />
     <img src="https://img.shields.io/badge/Foodie-吃货-pink" />
