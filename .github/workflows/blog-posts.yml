@@ -1,8 +1,8 @@
 name: Latest Blog Posts
 
 on:
-  schedule:
-    - cron: '0 0 * * *'  # 每日 00:00 UTC 更新
+  # schedule:
+  #   - cron: '0 0 * * *'  # 每日 00:00 UTC 更新 (临时禁用 - SSL证书过期)
   workflow_dispatch:  # 手动触发
 
 jobs:
