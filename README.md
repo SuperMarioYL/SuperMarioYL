@@ -67,7 +67,7 @@
 ## 最近动态 / Recent Activity
 
 <!--START_SECTION:activity-->
-1. 🚀 Published release [测试版本发布](https://github.com/SuperMarioYL/Bison/releases/tag/0.0.1) in [SuperMarioYL/Bison](https://github.com/SuperMarioYL/Bison)
+1. 🚀 Published release [Release v0.0.2](https://github.com/SuperMarioYL/Bison/releases/tag/v0.0.2) in [SuperMarioYL/Bison](https://github.com/SuperMarioYL/Bison)
 <!--END_SECTION:activity-->
 
 <br><br>
