@@ -129,37 +129,6 @@ Deploying and orchestrating at scale
 <img src="./github-metrics/languages.indepth.svg" alt="Language Stats" width="100%">
 </details>
 
-<br><br>
-
-</div>
-
-<!-- ==================== RECENT ACTIVITY ==================== -->
-<div align="center">
-
-## 最近动态 / Recent Activity
-
-<!--START_SECTION:activity-->
-1. 🚀 Published release [Release v0.0.2](https://github.com/SuperMarioYL/Bison/releases/tag/v0.0.2) in [SuperMarioYL/Bison](https://github.com/SuperMarioYL/Bison)
-<!--END_SECTION:activity-->
-
-<br><br>
-
-</td>
-<td width="50%" valign="top">
-
-### ⚙️ Project 4
-**Description**: Model quantization and compression tools
-
-**Tech**: ONNX · TensorRT · C++ · CUDA
-
-<p>
-  <img src="https://img.shields.io/github/stars/SuperMarioYL/project4?style=social" alt="Stars">
-</p>
-
-</td>
-</tr>
-</table>
-
 <br>
 
 ---
