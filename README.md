@@ -27,8 +27,8 @@
 <br>
 
 <p>
-  <a href="https://lei6393.com">
-    <img src="https://img.shields.io/badge/🌐_Blog-lei6393.com-0071E3?style=flat-square&labelColor=F5F5F7" alt="Blog">
+  <a href="https://blog.lei6393.com">
+    <img src="https://img.shields.io/badge/🌐_Blog-blog.lei6393.com-0071E3?style=flat-square&labelColor=F5F5F7" alt="Blog">
   </a>
   <img src="https://komarev.com/ghpvc/?username=SuperMarioYL&style=flat-square&color=0071E3&label=Profile+Views" alt="Profile Views">
 </p>
