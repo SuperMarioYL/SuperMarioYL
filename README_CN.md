@@ -30,6 +30,9 @@
   <a href="https://blog.lei6393.com">
     <img src="https://img.shields.io/badge/🌐_博客-blog.lei6393.com-0071E3?style=flat-square&labelColor=F5F5F7" alt="Blog">
   </a>
+  <a href="mailto:leo.stack@outlook.com">
+    <img src="https://img.shields.io/badge/📧_邮箱-leo.stack@outlook.com-0071E3?style=flat-square&labelColor=F5F5F7" alt="Email">
+  </a>
   <img src="https://komarev.com/ghpvc/?username=SuperMarioYL&style=flat-square&color=0071E3&label=访问量" alt="Profile Views">
 </p>
 
