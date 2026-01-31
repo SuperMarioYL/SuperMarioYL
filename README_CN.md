@@ -138,43 +138,16 @@
 
 ## 我的项目
 
-<div align="center">
+| 项目 | 描述 |
+|------|------|
+| [**Bison**](http://bison.lei6393.com/) | 企业级 GPU 资源计费与多租户管理平台 |
 
-<a href="https://cloudnative.cookbook.lei6393.com/">
-  <img src="https://stories.freepiklabs.com/storage/1679/98-Cloud-hosting_Artboard-1.svg" width="120" alt="Cloud Native">
-</a>
+## 技术文档
 
-**Cloud Native Cookbook**
-
-[![Docs](https://img.shields.io/badge/cloudnative.cookbook.lei6393.com-0071E3?style=for-the-badge&labelColor=F5F5F7)](https://cloudnative.cookbook.lei6393.com/)
-
-云原生技术原理解析
-
-<br>
-
-<a href="http://inference.cookbook.lei6393.com/">
-  <img src="https://stories.freepiklabs.com/storage/1854/143-Artificial-intelligence_Artboard-1.svg" width="120" alt="Inference">
-</a>
-
-**Inference Cookbook**
-
-[![Docs](https://img.shields.io/badge/inference.cookbook.lei6393.com-0071E3?style=for-the-badge&labelColor=F5F5F7)](http://inference.cookbook.lei6393.com/)
-
-Inference 框架原理解析
-
-<br>
-
-<a href="http://bison.lei6393.com/">
-  <img src="https://stories.freepiklabs.com/storage/4579/296-Dashboard_Artboard-1.svg" width="120" alt="Bison">
-</a>
-
-**Bison**
-
-[![Platform](https://img.shields.io/badge/bison.lei6393.com-0071E3?style=for-the-badge&labelColor=F5F5F7)](http://bison.lei6393.com/)
-
-企业级 GPU 资源计费与多租户管理平台
-
-</div>
+| 文档 | 描述 |
+|------|------|
+| [**Cloud Native Cookbook**](https://cloudnative.cookbook.lei6393.com/) | 云原生技术原理解析 |
+| [**Inference Cookbook**](http://inference.cookbook.lei6393.com/) | Inference 框架原理解析 |
 
 <br>
 

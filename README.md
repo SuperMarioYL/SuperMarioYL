@@ -138,43 +138,16 @@ Deploying and orchestrating at scale
 
 ## My Projects
 
-<div align="center">
+| Project | Description |
+|---------|-------------|
+| [**Bison**](http://bison.lei6393.com/) | Enterprise GPU Resource Billing & Multi-Tenant Management Platform |
 
-<a href="https://cloudnative.cookbook.lei6393.com/">
-  <img src="https://stories.freepiklabs.com/storage/1679/98-Cloud-hosting_Artboard-1.svg" width="120" alt="Cloud Native">
-</a>
+## Technical Docs
 
-**Cloud Native Cookbook**
-
-[![Docs](https://img.shields.io/badge/cloudnative.cookbook.lei6393.com-0071E3?style=for-the-badge&labelColor=F5F5F7)](https://cloudnative.cookbook.lei6393.com/)
-
-Cloud Native Technical Deep Dive
-
-<br>
-
-<a href="http://inference.cookbook.lei6393.com/">
-  <img src="https://stories.freepiklabs.com/storage/1854/143-Artificial-intelligence_Artboard-1.svg" width="120" alt="Inference">
-</a>
-
-**Inference Cookbook**
-
-[![Docs](https://img.shields.io/badge/inference.cookbook.lei6393.com-0071E3?style=for-the-badge&labelColor=F5F5F7)](http://inference.cookbook.lei6393.com/)
-
-Inference Framework Deep Dive
-
-<br>
-
-<a href="http://bison.lei6393.com/">
-  <img src="https://stories.freepiklabs.com/storage/4579/296-Dashboard_Artboard-1.svg" width="120" alt="Bison">
-</a>
-
-**Bison**
-
-[![Platform](https://img.shields.io/badge/bison.lei6393.com-0071E3?style=for-the-badge&labelColor=F5F5F7)](http://bison.lei6393.com/)
-
-Enterprise GPU Resource Billing & Multi-Tenant Management Platform
-
-</div>
+| Docs | Description |
+|------|-------------|
+| [**Cloud Native Cookbook**](https://cloudnative.cookbook.lei6393.com/) | Cloud Native Technical Deep Dive |
+| [**Inference Cookbook**](http://inference.cookbook.lei6393.com/) | Inference Framework Deep Dive |
 
 <br>
 
