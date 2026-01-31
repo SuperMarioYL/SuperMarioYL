@@ -138,51 +138,43 @@
 
 ## 我的项目
 
-<table>
-<tr>
-<td align="center" width="50%">
+<div align="center">
+
 <a href="https://cloudnative.cookbook.lei6393.com/">
-  <img src="https://stories.freepiklabs.com/storage/1679/98-Cloud-hosting_Artboard-1.svg" width="140" height="100" alt="Cloud Native">
+  <img src="https://stories.freepiklabs.com/storage/1679/98-Cloud-hosting_Artboard-1.svg" width="120" alt="Cloud Native">
 </a>
-<br><br>
-<b>Cloud Native Cookbook</b>
-<br><br>
-<a href="https://cloudnative.cookbook.lei6393.com/">
-  <img src="https://img.shields.io/badge/cloudnative.cookbook.lei6393.com-0071E3?style=for-the-badge&labelColor=F5F5F7" alt="Docs">
-</a>
-<br><br>
+
+**Cloud Native Cookbook**
+
+[![Docs](https://img.shields.io/badge/cloudnative.cookbook.lei6393.com-0071E3?style=for-the-badge&labelColor=F5F5F7)](https://cloudnative.cookbook.lei6393.com/)
+
 云原生技术原理解析
-</td>
-<td align="center" width="50%">
+
+<br>
+
 <a href="http://inference.cookbook.lei6393.com/">
-  <img src="https://stories.freepiklabs.com/storage/1854/143-Artificial-intelligence_Artboard-1.svg" width="140" height="100" alt="Inference">
+  <img src="https://stories.freepiklabs.com/storage/1854/143-Artificial-intelligence_Artboard-1.svg" width="120" alt="Inference">
 </a>
-<br><br>
-<b>Inference Cookbook</b>
-<br><br>
-<a href="http://inference.cookbook.lei6393.com/">
-  <img src="https://img.shields.io/badge/inference.cookbook.lei6393.com-0071E3?style=for-the-badge&labelColor=F5F5F7" alt="Docs">
-</a>
-<br><br>
+
+**Inference Cookbook**
+
+[![Docs](https://img.shields.io/badge/inference.cookbook.lei6393.com-0071E3?style=for-the-badge&labelColor=F5F5F7)](http://inference.cookbook.lei6393.com/)
+
 Inference 框架原理解析
-</td>
-</tr>
-<tr>
-<td align="center" colspan="2">
+
+<br>
+
 <a href="http://bison.lei6393.com/">
-  <img src="https://stories.freepiklabs.com/storage/4579/296-Dashboard_Artboard-1.svg" width="140" height="100" alt="Bison">
+  <img src="https://stories.freepiklabs.com/storage/4579/296-Dashboard_Artboard-1.svg" width="120" alt="Bison">
 </a>
-<br><br>
-<b>Bison</b>
-<br><br>
-<a href="http://bison.lei6393.com/">
-  <img src="https://img.shields.io/badge/bison.lei6393.com-0071E3?style=for-the-badge&labelColor=F5F5F7" alt="Platform">
-</a>
-<br><br>
+
+**Bison**
+
+[![Platform](https://img.shields.io/badge/bison.lei6393.com-0071E3?style=for-the-badge&labelColor=F5F5F7)](http://bison.lei6393.com/)
+
 企业级 GPU 资源计费与多租户管理平台
-</td>
-</tr>
-</table>
+
+</div>
 
 <br>
 
