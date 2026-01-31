@@ -133,6 +133,58 @@ Deploying and orchestrating at scale
 
 ---
 
+## My Projects
+
+<table>
+<tr>
+<td align="center" width="50%">
+
+<a href="https://cloudnative.cookbook.lei6393.com/">
+  <img src="https://stories.freepiklabs.com/storage/1679/98-Cloud-hosting_Artboard-1.svg" width="140" height="100" alt="Cloud Native">
+</a>
+
+**Cloud Native Cookbook**
+
+[![Docs](https://img.shields.io/badge/cloudnative.cookbook.lei6393.com-0071E3?style=for-the-badge&labelColor=F5F5F7)](https://cloudnative.cookbook.lei6393.com/)
+
+Cloud Native Technical Deep Dive
+
+</td>
+<td align="center" width="50%">
+
+<a href="http://inference.cookbook.lei6393.com/">
+  <img src="https://stories.freepiklabs.com/storage/1854/143-Artificial-intelligence_Artboard-1.svg" width="140" height="100" alt="Inference">
+</a>
+
+**Inference Cookbook**
+
+[![Docs](https://img.shields.io/badge/inference.cookbook.lei6393.com-0071E3?style=for-the-badge&labelColor=F5F5F7)](http://inference.cookbook.lei6393.com/)
+
+Inference Framework Deep Dive
+
+</td>
+</tr>
+<tr>
+<td align="center" colspan="2">
+
+<a href="http://bison.lei6393.com/">
+  <img src="https://stories.freepiklabs.com/storage/4579/296-Dashboard_Artboard-1.svg" width="140" height="100" alt="Bison">
+</a>
+
+**Bison**
+
+[![Platform](https://img.shields.io/badge/bison.lei6393.com-0071E3?style=for-the-badge&labelColor=F5F5F7)](http://bison.lei6393.com/)
+
+Enterprise GPU Resource Billing & Multi-Tenant Management Platform
+
+</td>
+</tr>
+</table>
+
+<br>
+
+---
+
 ## 📈 GitHub Stats
 
 <div align="center">
