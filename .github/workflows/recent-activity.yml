@@ -1,9 +1,10 @@
 name: Recent Activity
 
 on:
-  schedule:
-    - cron: '0 */6 * * *'  # 每 6 小时更新
-  workflow_dispatch:  # 手动触发
+  # schedule disabled — the new profile (C2 · Atlas) has no recent-activity block to inject
+  # schedule:
+  #   - cron: '0 */6 * * *'
+  workflow_dispatch:  # 仍可手动触发
 
 jobs:
   update-readme:

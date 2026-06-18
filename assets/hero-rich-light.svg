@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 300" width="880" height="300" role="img" aria-label="Leo — AI systems, made to run in production">
+  <rect width="880" height="300" rx="24" fill="#F5F5F7"/>
+  <circle cx="150" cy="106" r="98" fill="none" stroke="#0071E3" stroke-opacity="0.10" stroke-width="1.5"/>
+  <circle cx="150" cy="106" r="70" fill="none" stroke="#0071E3" stroke-opacity="0.16" stroke-width="1.5"/>
+  <circle cx="150" cy="106" r="44" fill="#0071E3" fill-opacity="0.05"/>
+  <text x="48" y="122" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="64" font-weight="700" letter-spacing="-1.5" fill="#1D1D1F">Leo</text>
+  <rect x="50" y="136" width="118" height="4" rx="2" fill="#0071E3"/>
+  <text x="50" y="178" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="20" font-weight="500" fill="#424245">AI systems, made to run in production.</text>
+  <circle cx="54" cy="202" r="4" fill="#5E5CE6"/>
+  <text x="64" y="206" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13" fill="#6E6E73">AI Agent</text>
+  <circle cx="146" cy="202" r="4" fill="#0071E3"/>
+  <text x="156" y="206" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13" fill="#6E6E73">Cloud Native AI</text>
+  <circle cx="270" cy="202" r="4" fill="#10A37F"/>
+  <text x="280" y="206" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13" fill="#6E6E73">Inference</text>
+  <line x1="48" y1="232" x2="430" y2="232" stroke="#E1E1E6" stroke-width="1"/>
+  <rect x="48" y="248" width="172" height="28" rx="14" fill="#FFFFFF" stroke="#E1E1E6" stroke-width="1"/>
+  <text x="134" y="266" text-anchor="middle" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" fill="#6E6E73">Builder of Bison</text>
+  <rect x="232" y="248" width="198" height="28" rx="14" fill="#FFFFFF" stroke="#E1E1E6" stroke-width="1"/>
+  <text x="331" y="266" text-anchor="middle" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" fill="#6E6E73">Author · 2 engineering cookbooks</text>
+  <!-- 3-layer stack -->
+  <rect x="600" y="64" width="216" height="56" rx="12" fill="#5E5CE6" fill-opacity="0.12" stroke="#5E5CE6" stroke-width="1.5"/>
+  <circle cx="624" cy="92" r="6" fill="#5E5CE6"/>
+  <text x="642" y="96" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13" font-weight="500" fill="#4B3FC4">AI Agent</text>
+  <rect x="578" y="110" width="216" height="56" rx="12" fill="#0071E3" fill-opacity="0.12" stroke="#0071E3" stroke-width="1.5"/>
+  <circle cx="602" cy="138" r="6" fill="#0071E3"/>
+  <text x="620" y="142" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13" font-weight="500" fill="#0A4F9E">Inference</text>
+  <rect x="556" y="156" width="216" height="56" rx="12" fill="#10A37F" fill-opacity="0.12" stroke="#10A37F" stroke-width="1.5"/>
+  <circle cx="580" cy="184" r="6" fill="#10A37F"/>
+  <text x="598" y="188" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13" font-weight="500" fill="#0B6B53">Cloud Native</text>
+  <text x="664" y="244" text-anchor="middle" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" fill="#9A9AA0">one stack · three layers</text>
+</svg>

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 210" width="880" height="210" font-family="'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', Inter, -apple-system, sans-serif" role="img" aria-label="演进弧线：从云原生基础设施到推理加速再到 AI 智能体">
+  <defs>
+    <marker id="jcl-a" markerWidth="9" markerHeight="9" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#C9C9D0"/></marker>
+  </defs>
+  <text x="60" y="40" font-size="12" font-weight="500" letter-spacing="1" fill="#9A9AA0">从基础设施到智能体</text>
+
+  <circle cx="700" cy="130" r="40" fill="none" stroke="#5E5CE6" stroke-opacity="0.08" stroke-width="1.5"/>
+  <line x1="60" y1="130" x2="806" y2="130" stroke="#E1E1E6" stroke-width="1.5" marker-end="url(#jcl-a)"/>
+
+  <circle cx="180" cy="130" r="13" fill="#FFFFFF" stroke="#0071E3" stroke-width="2"/><circle cx="180" cy="130" r="5" fill="#0071E3"/>
+  <text x="180" y="92" text-anchor="middle" font-size="14" font-weight="600" fill="#1D1D1F">云原生 AI</text>
+  <text x="180" y="164" text-anchor="middle" font-size="11" fill="#6E6E73">GPU 基础设施 · K8s 服务</text>
+
+  <circle cx="440" cy="130" r="13" fill="#FFFFFF" stroke="#10A37F" stroke-width="2"/><circle cx="440" cy="130" r="5" fill="#10A37F"/>
+  <text x="440" y="92" text-anchor="middle" font-size="14" font-weight="600" fill="#1D1D1F">推理加速</text>
+  <text x="440" y="164" text-anchor="middle" font-size="11" fill="#6E6E73">vLLM · KV-cache · 量化</text>
+
+  <circle cx="700" cy="130" r="13" fill="#FFFFFF" stroke="#5E5CE6" stroke-width="2"/><circle cx="700" cy="130" r="5" fill="#5E5CE6"/>
+  <text x="700" y="92" text-anchor="middle" font-size="14" font-weight="600" fill="#1D1D1F">AI 智能体</text>
+  <text x="700" y="164" text-anchor="middle" font-size="11" fill="#6E6E73">编排 · MCP · 评测</text>
+</svg>

@@ -1,9 +1,10 @@
 name: Generate Snake Contribution Graph
 
 on:
-  schedule:
-    - cron: "0 0 * * *"  # 每天 UTC 午夜
-  workflow_dispatch:  # 手动触发
+  # schedule disabled — the new profile (C2 · Atlas) does not embed the snake graph
+  # schedule:
+  #   - cron: "0 0 * * *"
+  workflow_dispatch:  # 仍可手动触发
 
 jobs:
   generate:

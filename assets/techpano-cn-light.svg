@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 216" width="880" height="216" font-family="'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', Inter, -apple-system, sans-serif" role="img" aria-label="按支柱分组的技术栈">
+  <!-- Agent row -->
+  <circle cx="24" cy="46" r="5" fill="#5E5CE6"/>
+  <text x="38" y="50" font-size="13" font-weight="600" fill="#1D1D1F">AI 智能体</text>
+  <g font-size="11" font-weight="500" fill="#4B3FC4">
+    <rect x="180" y="34" width="56" height="24" rx="12" fill="#5E5CE6" fill-opacity="0.10" stroke="#5E5CE6" stroke-opacity="0.35"/><text x="208" y="50" text-anchor="middle">Skills</text>
+    <rect x="244" y="34" width="46" height="24" rx="12" fill="#5E5CE6" fill-opacity="0.10" stroke="#5E5CE6" stroke-opacity="0.35"/><text x="267" y="50" text-anchor="middle">MCP</text>
+    <rect x="298" y="34" width="82" height="24" rx="12" fill="#5E5CE6" fill-opacity="0.10" stroke="#5E5CE6" stroke-opacity="0.35"/><text x="339" y="50" text-anchor="middle">LlamaIndex</text>
+    <rect x="388" y="34" width="64" height="24" rx="12" fill="#5E5CE6" fill-opacity="0.10" stroke="#5E5CE6" stroke-opacity="0.35"/><text x="420" y="50" text-anchor="middle">Milvus</text>
+  </g>
+  <!-- Cloud row -->
+  <circle cx="24" cy="106" r="5" fill="#0071E3"/>
+  <text x="38" y="110" font-size="13" font-weight="600" fill="#1D1D1F">云原生 AI</text>
+  <g font-size="11" font-weight="500" fill="#0A4F9E">
+    <rect x="180" y="94" width="86" height="24" rx="12" fill="#0071E3" fill-opacity="0.10" stroke="#0071E3" stroke-opacity="0.35"/><text x="223" y="110" text-anchor="middle">Kubernetes</text>
+    <rect x="274" y="94" width="64" height="24" rx="12" fill="#0071E3" fill-opacity="0.10" stroke="#0071E3" stroke-opacity="0.35"/><text x="306" y="110" text-anchor="middle">Volcano</text>
+    <rect x="346" y="94" width="68" height="24" rx="12" fill="#0071E3" fill-opacity="0.10" stroke="#0071E3" stroke-opacity="0.35"/><text x="380" y="110" text-anchor="middle">Kubeflow</text>
+    <rect x="422" y="94" width="92" height="24" rx="12" fill="#0071E3" fill-opacity="0.10" stroke="#0071E3" stroke-opacity="0.35"/><text x="468" y="110" text-anchor="middle">KubeRay/Ray</text>
+    <rect x="522" y="94" width="52" height="24" rx="12" fill="#0071E3" fill-opacity="0.10" stroke="#0071E3" stroke-opacity="0.35"/><text x="548" y="110" text-anchor="middle">KEDA</text>
+    <rect x="582" y="94" width="62" height="24" rx="12" fill="#0071E3" fill-opacity="0.10" stroke="#0071E3" stroke-opacity="0.35"/><text x="613" y="110" text-anchor="middle">KServe</text>
+  </g>
+  <!-- Inference -->
+  <circle cx="24" cy="170" r="5" fill="#10A37F"/>
+  <text x="38" y="174" font-size="13" font-weight="600" fill="#1D1D1F">推理加速</text>
+  <g font-size="11" font-weight="500" fill="#0B6B53">
+    <rect x="180" y="144" width="54" height="24" rx="12" fill="#10A37F" fill-opacity="0.10" stroke="#10A37F" stroke-opacity="0.35"/><text x="207" y="160" text-anchor="middle">vLLM</text>
+    <rect x="242" y="144" width="64" height="24" rx="12" fill="#10A37F" fill-opacity="0.10" stroke="#10A37F" stroke-opacity="0.35"/><text x="274" y="160" text-anchor="middle">SGLang</text>
+    <rect x="314" y="144" width="108" height="24" rx="12" fill="#10A37F" fill-opacity="0.10" stroke="#10A37F" stroke-opacity="0.35"/><text x="368" y="160" text-anchor="middle">PagedAttention</text>
+    <rect x="430" y="144" width="132" height="24" rx="12" fill="#10A37F" fill-opacity="0.10" stroke="#10A37F" stroke-opacity="0.35"/><text x="496" y="160" text-anchor="middle">continuous batching</text>
+    <rect x="570" y="144" width="138" height="24" rx="12" fill="#10A37F" fill-opacity="0.10" stroke="#10A37F" stroke-opacity="0.35"/><text x="639" y="160" text-anchor="middle">speculative decoding</text>
+    <rect x="716" y="144" width="108" height="24" rx="12" fill="#10A37F" fill-opacity="0.10" stroke="#10A37F" stroke-opacity="0.35"/><text x="770" y="160" text-anchor="middle">FlashAttention</text>
+
+    <rect x="180" y="176" width="104" height="24" rx="12" fill="#10A37F" fill-opacity="0.10" stroke="#10A37F" stroke-opacity="0.35"/><text x="232" y="192" text-anchor="middle">chunked prefill</text>
+    <rect x="292" y="176" width="98" height="24" rx="12" fill="#10A37F" fill-opacity="0.10" stroke="#10A37F" stroke-opacity="0.35"/><text x="341" y="192" text-anchor="middle">prefix caching</text>
+    <rect x="398" y="176" width="82" height="24" rx="12" fill="#10A37F" fill-opacity="0.10" stroke="#10A37F" stroke-opacity="0.35"/><text x="439" y="192" text-anchor="middle">KV-cache</text>
+    <rect x="488" y="176" width="116" height="24" rx="12" fill="#10A37F" fill-opacity="0.10" stroke="#10A37F" stroke-opacity="0.35"/><text x="546" y="192" text-anchor="middle">量化 FP8/AWQ</text>
+    <rect x="612" y="176" width="92" height="24" rx="12" fill="#10A37F" fill-opacity="0.10" stroke="#10A37F" stroke-opacity="0.35"/><text x="658" y="192" text-anchor="middle">TP/PP 并行</text>
+    <rect x="712" y="176" width="96" height="24" rx="12" fill="#10A37F" fill-opacity="0.10" stroke="#10A37F" stroke-opacity="0.35"/><text x="760" y="192" text-anchor="middle">LoRA serving</text>
+  </g>
+</svg>

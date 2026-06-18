@@ -1,189 +1,69 @@
 <div align="right">
-  <a href="./README.md">
-    <img src="https://img.shields.io/badge/🇺🇸_English-0071E3?style=flat-square" alt="English Version">
-  </a>
+  <sub><a href="./README.md">EN</a>&nbsp;&nbsp;⇄&nbsp;&nbsp;<b>中文</b></sub>
 </div>
-
-<div align="center">
-
-# 你好，我是 Leo 👋
-
-<p>
-  <img src="https://readme-typing-svg.demolab.com?font=SF+Pro+Display&size=28&duration=3000&pause=1000&color=1D1D1F&center=true&vCenter=true&width=600&lines=AI+基础设施工程师;推理加速专家;云原生技术爱好者" alt="Typing SVG" />
-</p>
-
-<p>
-  <img src="https://img.shields.io/badge/专注-AI_基础设施-0071E3?style=for-the-badge&logo=databricks&logoColor=white" alt="AI Infrastructure">
-  <img src="https://img.shields.io/badge/专注-推理加速-0071E3?style=for-the-badge&logo=lightning&logoColor=white" alt="Inference Acceleration">
-  <img src="https://img.shields.io/badge/专注-云原生-0071E3?style=for-the-badge&logo=kubernetes&logoColor=white" alt="Cloud Native">
-</p>
-
-<p>
-  <samp>
-    构建高性能 AI 系统 · 大语言模型优化 · 多模态推理 · 可扩展的机器学习基础设施
-  </samp>
-</p>
-
-<br>
-
-<p>
-  <a href="https://blog.lei6393.com">
-    <img src="https://img.shields.io/badge/🌐_博客-blog.lei6393.com-0071E3?style=flat-square&labelColor=F5F5F7" alt="Blog">
-  </a>
-  <a href="mailto:leo.stack@outlook.com">
-    <img src="https://img.shields.io/badge/📧_邮箱-leo.stack@outlook.com-0071E3?style=flat-square&labelColor=F5F5F7" alt="Email">
-  </a>
-  <img src="https://komarev.com/ghpvc/?username=SuperMarioYL&style=flat-square&color=0071E3&label=访问量" alt="Profile Views">
-</p>
-
-</div>
-
-<br>
-
----
-
-## 🎯 核心专长
-
-<table>
-<tr>
-<td width="33%" valign="top">
-
-### 🏗️ AI 基础设施
-构建可扩展的机器学习系统和训练流水线
-
-<p>
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white" alt="PyTorch">
-  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white" alt="TensorFlow">
-  <img src="https://img.shields.io/badge/CUDA-76B900?style=flat&logo=nvidia&logoColor=white" alt="CUDA">
-  <img src="https://img.shields.io/badge/Triton-0033CC?style=flat&logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGV4dCB4PSI1MCIgeT0iNTAiIGZvbnQtc2l6ZT0iNDAiIGZpbGw9IndoaXRlIj5UPC90ZXh0Pjwvc3ZnPg==&logoColor=white" alt="Triton">
-</p>
-
-</td>
-<td width="33%" valign="top">
-
-### ⚡ 推理加速
-优化模型服务性能与降低推理延迟
-
-<p>
-  <img src="https://img.shields.io/badge/vLLM-00C7B7?style=flat&logo=v&logoColor=white" alt="vLLM">
-  <img src="https://img.shields.io/badge/TensorRT-76B900?style=flat&logo=nvidia&logoColor=white" alt="TensorRT">
-  <img src="https://img.shields.io/badge/ONNX-005CED?style=flat&logo=onnx&logoColor=white" alt="ONNX">
-  <img src="https://img.shields.io/badge/量化技术-0071E3?style=flat&logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGV4dCB4PSI1MCIgeT0iNTAiIGZvbnQtc2l6ZT0iNDAiIGZpbGw9IndoaXRlIj5RPC90ZXh0Pjwvc3ZnPg==&logoColor=white" alt="Quantization">
-</p>
-
-</td>
-<td width="33%" valign="top">
-
-### ☁️ 云原生
-大规模部署与编排
-
-<p>
-  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat&logo=kubernetes&logoColor=white" alt="Kubernetes">
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white" alt="Docker">
-  <img src="https://img.shields.io/badge/Ray-028CF0?style=flat&logo=ray&logoColor=white" alt="Ray">
-  <img src="https://img.shields.io/badge/Istio-466BB0?style=flat&logo=istio&logoColor=white" alt="Istio">
-</p>
-
-</td>
-</tr>
-</table>
-
-<br>
-
----
-
-## 🛠️ 技术栈
-
-**深度学习框架**
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white)
-![JAX](https://img.shields.io/badge/JAX-00979D?style=flat&logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGV4dCB4PSI1MCIgeT0iNTAiIGZvbnQtc2l6ZT0iNDAiIGZpbGw9IndoaXRlIj5KPC90ZXh0Pjwvc3ZnPg==&logoColor=white)
-
-**推理与优化**
-
-![CUDA](https://img.shields.io/badge/CUDA-76B900?style=flat&logo=nvidia&logoColor=white)
-![TensorRT](https://img.shields.io/badge/TensorRT-76B900?style=flat&logo=nvidia&logoColor=white)
-![ONNX Runtime](https://img.shields.io/badge/ONNX_Runtime-005CED?style=flat&logo=onnx&logoColor=white)
-![vLLM](https://img.shields.io/badge/vLLM-00C7B7?style=flat&logo=v&logoColor=white)
-![Triton Inference Server](https://img.shields.io/badge/Triton-0033CC?style=flat&logo=nvidia&logoColor=white)
-
-**云原生与 DevOps**
-
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat&logo=kubernetes&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
-![Ray](https://img.shields.io/badge/Ray-028CF0?style=flat&logo=ray&logoColor=white)
-![Helm](https://img.shields.io/badge/Helm-0F1689?style=flat&logo=helm&logoColor=white)
-![ArgoCD](https://img.shields.io/badge/ArgoCD-EF7B4D?style=flat&logo=argo&logoColor=white)
-![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat&logo=prometheus&logoColor=white)
-
-**编程语言与工具**
-
-![C++](https://img.shields.io/badge/C++-00599C?style=flat&logo=c%2B%2B&logoColor=white)
-![Go](https://img.shields.io/badge/Go-00ADD8?style=flat&logo=go&logoColor=white)
-![Rust](https://img.shields.io/badge/Rust-000000?style=flat&logo=rust&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)
-
-<details>
-<summary><b>📊 查看详细语言统计 →</b></summary>
-<br>
-<img src="./github-metrics/languages.indepth.svg" alt="Language Stats" width="100%">
-</details>
-
-<br>
-
----
-
-## 我的项目
-
-| 项目 | 描述 |
-|------|------|
-| [**Bison**](http://bison.lei6393.com/) | 企业级 GPU 资源计费与多租户管理平台 |
-
-## 技术文档
-
-| 文档 | 描述 |
-|------|------|
-| [**Cloud Native Cookbook**](https://cloudnative.cookbook.lei6393.com/) | 云原生技术原理解析 |
-| [**Inference Cookbook**](http://inference.cookbook.lei6393.com/) | Inference 框架原理解析 |
-
-<br>
-
----
-
-## 📈 GitHub 统计
-
-<div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)"
-          srcset="./profile-snake-contrib/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)"
-          srcset="./profile-snake-contrib/github-contribution-grid-snake.svg" />
-  <img alt="GitHub Contribution Graph"
-       src="./profile-snake-contrib/github-contribution-grid-snake-dark.svg"
-       width="100%" />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-rich-cn-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/hero-rich-cn-light.svg">
+  <img src="./assets/hero-rich-cn-light.svg" width="880" alt="Leo —— AI 系统,为生产而打造。">
 </picture>
 
-</div>
+<p><sub>我构建让大模型智能体稳定上生产的基础设施 —— 推理服务、MCP 工具层、多智能体编排,以及评测与可观测。</sub></p>
+
+<h2><img src="https://api.iconify.design/tabler:topology-star-3.svg?color=%230071E3&width=24" height="22" align="absmiddle" alt=""> 智能体如何运行</h2>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/atlas-cn-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/atlas-cn-light.svg">
+  <img src="./assets/atlas-cn-light.svg" width="880" alt="用户 → 编排器 → 工具/MCP + 记忆/RAG → 推理,运行在云原生 AI 底座之上,由评测与可观测贯穿">
+</picture>
+
+<p><sub>每一次工具调用与大模型调用都被追踪,护栏拦截动作,评测反馈形成闭环 —— 把智能体当作运行在云原生底座上、可观测且成本可控的系统。</sub></p>
+
+<h2><img src="https://api.iconify.design/tabler:layout-grid.svg?color=%230071E3&width=24" height="22" align="absmiddle" alt=""> 核心能力</h2>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/capdive-cn-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/capdive-cn-light.svg">
+  <img src="./assets/capdive-cn-light.svg" width="880" alt="AI 智能体:规划→行动→反思 循环 · 云原生:调度器 + pod · 推理:更低延迟、更高吞吐">
+</picture>
+
+<h2><img src="https://api.iconify.design/tabler:stack-2.svg?color=%230071E3&width=24" height="22" align="absmiddle" alt=""> 技术栈</h2>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/techpano-cn-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/techpano-cn-light.svg">
+  <img src="./assets/techpano-cn-light.svg" width="880" alt="按三支柱分组的技术栈:AI 智能体、云原生 AI、推理加速">
+</picture>
+
+<h2><img src="https://api.iconify.design/tabler:route.svg?color=%230071E3&width=24" height="22" align="absmiddle" alt=""> 成长轨迹</h2>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/journey-cn-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/journey-cn-light.svg">
+  <img src="./assets/journey-cn-light.svg" width="880" alt="从基础设施到智能体:云原生 AI → 推理加速 → AI 智能体">
+</picture>
+
+<h2><img src="https://api.iconify.design/tabler:folder.svg?color=%230071E3&width=24" height="22" align="absmiddle" alt=""> 精选作品</h2>
+
+- [**Bison**](http://bison.lei6393.com/) —— 企业级 GPU 计费与多租户管理平台
+- [**Inference Cookbook**](http://inference.cookbook.lei6393.com/) —— 推理框架原理深度解析
+- [**Cloud Native Cookbook**](https://cloudnative.cookbook.lei6393.com/) —— 云原生工程原理深度解析
 
 <br>
 
----
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/footer-banner-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/footer-banner-light.svg">
+  <img src="./assets/footer-banner-light.svg" width="880" alt="一起把 AI 系统做稳 · blog.lei6393.com">
+</picture>
 
-## 💭 关于我
-
-<div align="center">
-
-<samp>
-热衷于突破 AI 性能的边界。<br>
-不优化推理流水线时，你会发现我在骑行、摄影或旅行。
-</samp>
-
-<br><br>
-
-<sub>© 2025 Leo · 用热爱 AI 和开源的心驱动</sub>
-
-</div>
+<p align="center">
+  <a href="https://blog.lei6393.com" title="博客"><img src="https://api.iconify.design/tabler:world-www.svg?color=%230071E3&width=18" height="16" align="absmiddle" alt="博客"></a>
+  &nbsp;&nbsp;
+  <a href="mailto:leo.stack@outlook.com" title="邮箱"><img src="https://api.iconify.design/tabler:mail.svg?color=%230071E3&width=18" height="16" align="absmiddle" alt="邮箱"></a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/SuperMarioYL" title="GitHub"><img src="https://api.iconify.design/tabler:brand-github.svg?color=%230071E3&width=18" height="16" align="absmiddle" alt="GitHub"></a>
+  &nbsp;&nbsp;&nbsp;
+  <img src="https://komarev.com/ghpvc/?username=SuperMarioYL&style=flat&color=0071E3&label=%E8%AE%BF%E9%97%AE%E9%87%8F" align="absmiddle" alt="访问量">
+</p>

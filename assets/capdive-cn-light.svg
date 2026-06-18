@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 300" width="880" height="300" font-family="'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', Inter, -apple-system, sans-serif" role="img" aria-label="能力深潜：智能体循环、云原生拓扑、推理延迟与吞吐">
+  <defs>
+    <marker id="cdcl-a" markerWidth="7" markerHeight="7" refX="5" refY="2.5" orient="auto"><path d="M0,0 L5,2.5 L0,5 Z" fill="#9A9AA0"/></marker>
+  </defs>
+
+  <g transform="translate(10,10)">
+    <rect width="272" height="280" rx="16" fill="#FFFFFF" stroke="#E8E8ED"/>
+    <circle cx="40" cy="48" r="20" fill="none" stroke="#5E5CE6" stroke-opacity="0.30" stroke-width="1.5"/>
+    <rect x="29" y="42" width="22" height="18" rx="4" fill="none" stroke="#5E5CE6" stroke-width="1.6"/>
+    <circle cx="36" cy="51" r="1.8" fill="#5E5CE6"/><circle cx="44" cy="51" r="1.8" fill="#5E5CE6"/>
+    <line x1="40" y1="42" x2="40" y2="36" stroke="#5E5CE6" stroke-width="1.6"/><circle cx="40" cy="35" r="1.7" fill="#5E5CE6"/>
+    <text x="18" y="90" font-size="17" font-weight="600" fill="#1D1D1F">AI 智能体</text>
+    <text x="18" y="108" font-size="12" fill="#9A9AA0">AI Agent</text>
+    <rect x="18" y="118" width="28" height="3" rx="1.5" fill="#5E5CE6"/>
+    <text x="18" y="142" font-size="12" fill="#424245">规划 · 调用工具 · 反思 · 评测</text>
+    <rect x="16" y="156" width="240" height="72" rx="10" fill="#FAFAFC" stroke="#EFEFF3"/>
+    <path d="M196,180 C196,166 70,166 56,180" fill="none" stroke="#9A9AA0" stroke-width="1.2" marker-end="url(#cdcl-a)"/>
+    <rect x="30" y="186" width="46" height="22" rx="11" fill="#5E5CE6" fill-opacity="0.12"/><text x="53" y="201" text-anchor="middle" font-size="11" fill="#4B3FC4">规划</text>
+    <line x1="78" y1="197" x2="92" y2="197" stroke="#9A9AA0" stroke-width="1.2" marker-end="url(#cdcl-a)"/>
+    <rect x="96" y="186" width="42" height="22" rx="11" fill="#5E5CE6" fill-opacity="0.12"/><text x="117" y="201" text-anchor="middle" font-size="11" fill="#4B3FC4">行动</text>
+    <line x1="140" y1="197" x2="154" y2="197" stroke="#9A9AA0" stroke-width="1.2" marker-end="url(#cdcl-a)"/>
+    <rect x="158" y="186" width="64" height="22" rx="11" fill="#5E5CE6" fill-opacity="0.12"/><text x="190" y="201" text-anchor="middle" font-size="11" fill="#4B3FC4">反思</text>
+    <rect x="18" y="248" width="44" height="22" rx="11" fill="#5E5CE6" fill-opacity="0.10" stroke="#5E5CE6" stroke-opacity="0.35"/><text x="40" y="263" text-anchor="middle" font-size="11" fill="#4B3FC4">MCP</text>
+    <rect x="70" y="248" width="44" height="22" rx="11" fill="#5E5CE6" fill-opacity="0.10" stroke="#5E5CE6" stroke-opacity="0.35"/><text x="92" y="263" text-anchor="middle" font-size="11" fill="#4B3FC4">RAG</text>
+    <rect x="122" y="248" width="48" height="22" rx="11" fill="#5E5CE6" fill-opacity="0.10" stroke="#5E5CE6" stroke-opacity="0.35"/><text x="146" y="263" text-anchor="middle" font-size="11" fill="#4B3FC4">评测</text>
+  </g>
+
+  <g transform="translate(304,10)">
+    <rect width="272" height="280" rx="16" fill="#FFFFFF" stroke="#E8E8ED"/>
+    <circle cx="40" cy="48" r="20" fill="none" stroke="#0071E3" stroke-opacity="0.30" stroke-width="1.5"/>
+    <circle cx="34" cy="51" r="7" fill="#0071E3"/><circle cx="46" cy="51" r="9" fill="#0071E3"/><circle cx="40" cy="44" r="8" fill="#0071E3"/><rect x="27" y="48" width="26" height="8" rx="4" fill="#0071E3"/>
+    <text x="18" y="90" font-size="17" font-weight="600" fill="#1D1D1F">云原生 AI</text>
+    <text x="18" y="108" font-size="12" fill="#9A9AA0">Cloud Native AI</text>
+    <rect x="18" y="118" width="28" height="3" rx="1.5" fill="#0071E3"/>
+    <text x="18" y="142" font-size="12" fill="#424245">在 K8s 上调度 · 服务 · 伸缩</text>
+    <rect x="16" y="156" width="240" height="72" rx="10" fill="#FAFAFC" stroke="#EFEFF3"/>
+    <rect x="92" y="164" width="88" height="20" rx="6" fill="#0071E3" fill-opacity="0.12"/><text x="136" y="178" text-anchor="middle" font-size="10" fill="#0A4F9E">调度器</text>
+    <line x1="136" y1="184" x2="60" y2="200" stroke="#9CB7DA" stroke-width="1"/><line x1="136" y1="184" x2="136" y2="200" stroke="#9CB7DA" stroke-width="1"/><line x1="136" y1="184" x2="212" y2="200" stroke="#9CB7DA" stroke-width="1"/>
+    <rect x="44" y="200" width="34" height="22" rx="6" fill="#0071E3" fill-opacity="0.14"/><text x="61" y="215" text-anchor="middle" font-size="9" fill="#0A4F9E">pod</text>
+    <rect x="119" y="200" width="34" height="22" rx="6" fill="#0071E3" fill-opacity="0.14"/><text x="136" y="215" text-anchor="middle" font-size="9" fill="#0A4F9E">pod</text>
+    <rect x="195" y="200" width="34" height="22" rx="6" fill="#0071E3" fill-opacity="0.14"/><text x="212" y="215" text-anchor="middle" font-size="9" fill="#0A4F9E">pod</text>
+    <rect x="18" y="248" width="46" height="22" rx="11" fill="#0071E3" fill-opacity="0.10" stroke="#0071E3" stroke-opacity="0.35"/><text x="41" y="263" text-anchor="middle" font-size="11" fill="#0A4F9E">K8s</text>
+    <rect x="72" y="248" width="48" height="22" rx="11" fill="#0071E3" fill-opacity="0.10" stroke="#0071E3" stroke-opacity="0.35"/><text x="96" y="263" text-anchor="middle" font-size="11" fill="#0A4F9E">GPU</text>
+    <rect x="128" y="248" width="74" height="22" rx="11" fill="#0071E3" fill-opacity="0.10" stroke="#0071E3" stroke-opacity="0.35"/><text x="165" y="263" text-anchor="middle" font-size="11" fill="#0A4F9E">服务</text>
+  </g>
+
+  <g transform="translate(598,10)">
+    <rect width="272" height="280" rx="16" fill="#FFFFFF" stroke="#E8E8ED"/>
+    <circle cx="40" cy="48" r="20" fill="none" stroke="#10A37F" stroke-opacity="0.30" stroke-width="1.5"/>
+    <polygon points="44,36 30,53 39,53 36,62 50,45 41,45" fill="#10A37F"/>
+    <text x="18" y="90" font-size="17" font-weight="600" fill="#1D1D1F">推理加速</text>
+    <text x="18" y="108" font-size="12" fill="#9A9AA0">Inference</text>
+    <rect x="18" y="118" width="28" height="3" rx="1.5" fill="#10A37F"/>
+    <text x="18" y="142" font-size="12" fill="#424245">在服务层压低延迟与成本</text>
+    <rect x="16" y="156" width="240" height="72" rx="10" fill="#FAFAFC" stroke="#EFEFF3"/>
+    <text x="30" y="180" font-size="10" fill="#6E6E73">延迟</text>
+    <rect x="92" y="172" width="40" height="9" rx="4" fill="#10A37F" fill-opacity="0.45"/>
+    <text x="150" y="180" font-size="11" fill="#0B6B53">▼ 更低</text>
+    <text x="30" y="208" font-size="10" fill="#6E6E73">吞吐</text>
+    <rect x="110" y="200" width="104" height="9" rx="4" fill="#10A37F"/>
+    <text x="222" y="208" font-size="11" fill="#0B6B53" text-anchor="end">▲</text>
+    <rect x="18" y="248" width="52" height="22" rx="11" fill="#10A37F" fill-opacity="0.10" stroke="#10A37F" stroke-opacity="0.35"/><text x="44" y="263" text-anchor="middle" font-size="11" fill="#0B6B53">vLLM</text>
+    <rect x="78" y="248" width="84" height="22" rx="11" fill="#10A37F" fill-opacity="0.10" stroke="#10A37F" stroke-opacity="0.35"/><text x="120" y="263" text-anchor="middle" font-size="11" fill="#0B6B53">KV-cache</text>
+    <rect x="170" y="248" width="60" height="22" rx="11" fill="#10A37F" fill-opacity="0.10" stroke="#10A37F" stroke-opacity="0.35"/><text x="200" y="263" text-anchor="middle" font-size="11" fill="#0B6B53">量化</text>
+  </g>
+</svg>
