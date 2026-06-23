@@ -47,8 +47,8 @@
 <h2><img src="https://api.iconify.design/tabler:folder.svg?color=%230071E3&width=24" height="22" align="absmiddle" alt=""> 精选作品</h2>
 
 - [**Bison**](http://bison.lei6393.com/) —— 企业级 GPU 计费与多租户管理平台
-- [**Inference Cookbook**](http://inference.cookbook.lei6393.com/) —— 推理框架原理深度解析
-- [**Cloud Native Cookbook**](https://cloudnative.cookbook.lei6393.com/) —— 云原生工程原理深度解析
+- [**Inference Cookbook**](https://inference.lei6393.com/) —— 推理框架原理深度解析
+- [**Cloud Native Cookbook**](https://cloudnative.lei6393.com/) —— 云原生工程原理深度解析
 
 <br>
 
@@ -59,11 +59,8 @@
 </picture>
 
 <p align="center">
-  <a href="https://blog.lei6393.com" title="博客"><img src="https://api.iconify.design/tabler:world-www.svg?color=%230071E3&width=18" height="16" align="absmiddle" alt="博客"></a>
-  &nbsp;&nbsp;
-  <a href="mailto:leo.stack@outlook.com" title="邮箱"><img src="https://api.iconify.design/tabler:mail.svg?color=%230071E3&width=18" height="16" align="absmiddle" alt="邮箱"></a>
-  &nbsp;&nbsp;
-  <a href="https://github.com/SuperMarioYL" title="GitHub"><img src="https://api.iconify.design/tabler:brand-github.svg?color=%230071E3&width=18" height="16" align="absmiddle" alt="GitHub"></a>
-  &nbsp;&nbsp;&nbsp;
-  <img src="https://komarev.com/ghpvc/?username=SuperMarioYL&style=flat&color=0071E3&label=%E8%AE%BF%E9%97%AE%E9%87%8F" align="absmiddle" alt="访问量">
+  <a href="https://blog.lei6393.com"><img src="https://img.shields.io/badge/%E5%8D%9A%E5%AE%A2-blog.lei6393.com-0071E3?style=flat&labelColor=555" alt="博客"></a>
+  <a href="mailto:leo.stack@outlook.com"><img src="https://img.shields.io/badge/%E9%82%AE%E7%AE%B1-leo.stack@outlook.com-0071E3?style=flat&labelColor=555" alt="邮箱"></a>
+  <a href="https://github.com/SuperMarioYL"><img src="https://img.shields.io/badge/github-SuperMarioYL-0071E3?style=flat&labelColor=555" alt="github"></a>
+  <img src="https://komarev.com/ghpvc/?username=SuperMarioYL&style=flat&color=0071E3&label=%E8%AE%BF%E9%97%AE%E9%87%8F" alt="访问量">
 </p>

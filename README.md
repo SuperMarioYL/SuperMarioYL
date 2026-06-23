@@ -47,8 +47,8 @@
 <h2><img src="https://api.iconify.design/tabler:folder.svg?color=%230071E3&width=24" height="22" align="absmiddle" alt=""> Selected work</h2>
 
 - [**Bison**](http://bison.lei6393.com/) — Enterprise GPU billing & multi-tenant platform
-- [**Inference Cookbook**](http://inference.cookbook.lei6393.com/) — Inference frameworks, deep-dived
-- [**Cloud Native Cookbook**](https://cloudnative.cookbook.lei6393.com/) — Cloud-native engineering, deep-dived
+- [**Inference Cookbook**](https://inference.lei6393.com/) — Inference frameworks, deep-dived
+- [**Cloud Native Cookbook**](https://cloudnative.lei6393.com/) — Cloud-native engineering, deep-dived
 
 <br>
 
@@ -59,11 +59,8 @@
 </picture>
 
 <p align="center">
-  <a href="https://blog.lei6393.com" title="Blog"><img src="https://api.iconify.design/tabler:world-www.svg?color=%230071E3&width=18" height="16" align="absmiddle" alt="Blog"></a>
-  &nbsp;&nbsp;
-  <a href="mailto:leo.stack@outlook.com" title="Email"><img src="https://api.iconify.design/tabler:mail.svg?color=%230071E3&width=18" height="16" align="absmiddle" alt="Email"></a>
-  &nbsp;&nbsp;
-  <a href="https://github.com/SuperMarioYL" title="GitHub"><img src="https://api.iconify.design/tabler:brand-github.svg?color=%230071E3&width=18" height="16" align="absmiddle" alt="GitHub"></a>
-  &nbsp;&nbsp;&nbsp;
-  <img src="https://komarev.com/ghpvc/?username=SuperMarioYL&style=flat&color=0071E3&label=views" align="absmiddle" alt="Profile views">
+  <a href="https://blog.lei6393.com"><img src="https://img.shields.io/badge/blog-blog.lei6393.com-0071E3?style=flat&labelColor=555" alt="blog"></a>
+  <a href="mailto:leo.stack@outlook.com"><img src="https://img.shields.io/badge/email-leo.stack@outlook.com-0071E3?style=flat&labelColor=555" alt="email"></a>
+  <a href="https://github.com/SuperMarioYL"><img src="https://img.shields.io/badge/github-SuperMarioYL-0071E3?style=flat&labelColor=555" alt="github"></a>
+  <img src="https://komarev.com/ghpvc/?username=SuperMarioYL&style=flat&color=0071E3&label=views" alt="views">
 </p>
