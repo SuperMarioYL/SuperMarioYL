@@ -1,21 +1,75 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 210" width="880" height="210" font-family="'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', Inter, -apple-system, sans-serif" role="img" aria-label="演进弧线：从云原生基础设施到推理加速再到 AI 智能体">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 210" width="880" height="210" font-family="'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', Inter, -apple-system, sans-serif" role="img" aria-label="演进弧线：从云原生基础设施到推理加速再到 AI 智能体，标注当前重心与下一步">
   <defs>
     <marker id="jcl-a" markerWidth="9" markerHeight="9" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#C9C9D0"/></marker>
+    <linearGradient id="jcl-g" gradientUnits="userSpaceOnUse" x1="60" y1="130" x2="830" y2="130">
+      <stop offset="0" stop-color="#ECECF1"/><stop offset="1" stop-color="#C9C9D0"/>
+    </linearGradient>
   </defs>
-  <text x="60" y="40" font-size="12" font-weight="500" letter-spacing="1" fill="#9A9AA0">从基础设施到智能体</text>
+  <style>
+    .jn-hd, .jn-n1, .jn-n2, .jn-n3, .jn-n4 { animation: jn-rise 0.7s cubic-bezier(0.4,0,0.2,1) backwards; transform-box: fill-box; transform-origin: center; }
+    .jn-n1 { animation-delay: 0.15s; }
+    .jn-n2 { animation-delay: 0.3s; }
+    .jn-n3 { animation-delay: 0.45s; }
+    .jn-n4 { animation-delay: 0.6s; }
+    @keyframes jn-rise { from { opacity: 0; transform: translateY(4px); } to { opacity: 1; transform: none; } }
+    .jn-deco { animation: jn-breathe 9s ease-in-out infinite; }
+    @keyframes jn-breathe { 0%, 100% { opacity: 1; } 50% { opacity: 0.5; } }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+  </style>
+  <text class="jn-hd" x="60" y="40" font-size="12" font-weight="500" letter-spacing="1" fill="#9A9AA0">从基础设施到智能体</text>
 
-  <circle cx="700" cy="130" r="40" fill="none" stroke="#5E5CE6" stroke-opacity="0.08" stroke-width="1.5"/>
-  <line x1="60" y1="130" x2="806" y2="130" stroke="#E1E1E6" stroke-width="1.5" marker-end="url(#jcl-a)"/>
+  <circle class="jn-deco" cx="700" cy="130" r="40" fill="none" stroke="#5E5CE6" stroke-opacity="0.08" stroke-width="1.5"/>
+  <line x1="60" y1="130" x2="830" y2="130" stroke="url(#jcl-g)" stroke-width="1.5" marker-end="url(#jcl-a)"/>
 
   <circle cx="180" cy="130" r="13" fill="#FFFFFF" stroke="#0071E3" stroke-width="2"/><circle cx="180" cy="130" r="5" fill="#0071E3"/>
-  <text x="180" y="92" text-anchor="middle" font-size="14" font-weight="600" fill="#1D1D1F">云原生 AI</text>
-  <text x="180" y="164" text-anchor="middle" font-size="11" fill="#6E6E73">GPU 基础设施 · K8s 服务</text>
+  <text class="jn-n1" x="180" y="92" text-anchor="middle" font-size="14" font-weight="600" fill="#1D1D1F">云原生 AI</text>
+  <text class="jn-n1" x="180" y="164" text-anchor="middle" font-size="11" fill="#6E6E73">GPU 基础设施 · K8s 服务</text>
 
   <circle cx="440" cy="130" r="13" fill="#FFFFFF" stroke="#10A37F" stroke-width="2"/><circle cx="440" cy="130" r="5" fill="#10A37F"/>
-  <text x="440" y="92" text-anchor="middle" font-size="14" font-weight="600" fill="#1D1D1F">推理加速</text>
-  <text x="440" y="164" text-anchor="middle" font-size="11" fill="#6E6E73">vLLM · KV-cache · 量化</text>
+  <text class="jn-n2" x="440" y="92" text-anchor="middle" font-size="14" font-weight="600" fill="#1D1D1F">推理加速</text>
+  <text class="jn-n2" x="440" y="164" text-anchor="middle" font-size="11" fill="#6E6E73">vLLM · KV-cache · 量化</text>
 
   <circle cx="700" cy="130" r="13" fill="#FFFFFF" stroke="#5E5CE6" stroke-width="2"/><circle cx="700" cy="130" r="5" fill="#5E5CE6"/>
-  <text x="700" y="92" text-anchor="middle" font-size="14" font-weight="600" fill="#1D1D1F">AI 智能体</text>
-  <text x="700" y="164" text-anchor="middle" font-size="11" fill="#6E6E73">编排 · MCP · 评测</text>
+  <text class="jn-n3" x="700" y="92" text-anchor="middle" font-size="14" font-weight="600" fill="#1D1D1F">AI 智能体</text>
+  <text class="jn-n3" x="700" y="164" text-anchor="middle" font-size="11" fill="#6E6E73">编排 · MCP · 评测</text>
+
+  <!-- current-focus chip above the agent node -->
+  <g class="jn-n3">
+    <rect x="670" y="56" width="60" height="18" rx="9" fill="#5E5CE6" fill-opacity="0.10" stroke="#5E5CE6" stroke-opacity="0.35"/>
+    <text x="700" y="68.5" text-anchor="middle" font-size="10" font-weight="500" fill="#5E5CE6">当前重心</text>
+  </g>
+
+  <!-- future node: dashed ring, no core yet -->
+  <g class="jn-n4">
+    <circle cx="775" cy="130" r="10" fill="#FFFFFF" stroke="#5E5CE6" stroke-opacity="0.5" stroke-width="1.5" stroke-dasharray="3 3">
+      <animateTransform attributeName="transform" type="rotate" values="0 775 130;360 775 130" dur="48s" repeatCount="indefinite"/>
+    </circle>
+    <text x="775" y="164" text-anchor="middle" font-size="10" fill="#9A9AA0">下一步</text>
+  </g>
+
+  <!-- sonar ripples: pulse once per 8s cycle as the light passes each node -->
+  <circle cx="180" cy="130" r="13" fill="none" stroke="#0071E3" stroke-width="1.5" opacity="0">
+    <animate attributeName="r" values="13;30;30" keyTimes="0;0.22;1" dur="8s" begin="1.25s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.5;0;0" keyTimes="0;0.22;1" dur="8s" begin="1.25s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="440" cy="130" r="13" fill="none" stroke="#10A37F" stroke-width="1.5" opacity="0">
+    <animate attributeName="r" values="13;30;30" keyTimes="0;0.22;1" dur="8s" begin="3.95s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.5;0;0" keyTimes="0;0.22;1" dur="8s" begin="3.95s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="700" cy="130" r="13" fill="none" stroke="#5E5CE6" stroke-width="1.5" opacity="0">
+    <animate attributeName="r" values="13;30;30" keyTimes="0;0.22;1" dur="8s" begin="6.65s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.5;0;0" keyTimes="0;0.22;1" dur="8s" begin="6.65s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- traveling light: halo + core, color shifts through the pillar palette, fading past the future node -->
+  <circle cx="0" cy="0" r="9" fill="#0071E3" opacity="0">
+    <animate attributeName="opacity" values="0.25;0.25;0.1" keyTimes="0;0.93;1" dur="8s" repeatCount="indefinite"/>
+    <animateMotion dur="8s" repeatCount="indefinite" path="M60,130 L830,130"/>
+    <animate attributeName="fill" values="#0071E3;#0071E3;#10A37F;#10A37F;#5E5CE6;#5E5CE6" keyTimes="0;0.47;0.52;0.80;0.86;1" dur="8s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="0" cy="0" r="4" fill="#0071E3" opacity="0">
+    <animate attributeName="opacity" values="1;1;0.35" keyTimes="0;0.93;1" dur="8s" repeatCount="indefinite"/>
+    <animateMotion dur="8s" repeatCount="indefinite" path="M60,130 L830,130"/>
+    <animate attributeName="fill" values="#0071E3;#0071E3;#10A37F;#10A37F;#5E5CE6;#5E5CE6" keyTimes="0;0.47;0.52;0.80;0.86;1" dur="8s" repeatCount="indefinite"/>
+  </circle>
 </svg>

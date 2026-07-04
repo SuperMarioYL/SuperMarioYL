@@ -1,31 +1,75 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 300" width="880" height="300" font-family="'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', Inter, -apple-system, sans-serif" role="img" aria-label="Leo — 让 AI 系统在生产环境稳定运行">
   <rect width="880" height="300" rx="24" fill="#16161C"/>
-  <circle cx="150" cy="106" r="98" fill="none" stroke="#4DA3FF" stroke-opacity="0.16" stroke-width="1.5"/>
-  <circle cx="150" cy="106" r="70" fill="none" stroke="#4DA3FF" stroke-opacity="0.24" stroke-width="1.5"/>
-  <circle cx="150" cy="106" r="44" fill="#4DA3FF" fill-opacity="0.07"/>
-  <text x="48" y="122" font-size="64" font-weight="700" letter-spacing="-1.5" fill="#F5F5F7">Leo</text>
-  <rect x="50" y="136" width="118" height="4" rx="2" fill="#4DA3FF"/>
-  <text x="50" y="178" font-size="20" font-weight="500" fill="#C7C7CC">AI 系统,为生产而打造。</text>
-  <circle cx="54" cy="202" r="4" fill="#8985FF"/>
+  <style>
+    .hz-halo1{animation:hz-breathe 7s ease-in-out infinite}
+    .hz-halo2{animation:hz-breathe 7s ease-in-out 1.2s infinite}
+    .hz-halo3{animation:hz-breathe 7s ease-in-out 2.4s infinite}
+    .hz-bar{animation:hz-draw .7s cubic-bezier(.4,0,.2,1) .3s backwards;transform-box:fill-box;transform-origin:left center}
+    .hz-dot{animation:hz-pulse 3s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+    .hz-d2{animation-delay:.4s}
+    .hz-d3{animation-delay:.8s}
+    .hz-layer{animation:hz-float 6s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+    .hz-l2{animation-delay:.9s}
+    .hz-l3{animation-delay:1.8s}
+    .hz-ldot{animation:hz-glow 4s ease-in-out infinite}
+    .hz-g2{animation-delay:.9s}
+    .hz-g3{animation-delay:1.8s}
+    .hz-in{animation:hz-rise .6s cubic-bezier(.4,0,.2,1) backwards;transform-box:fill-box;transform-origin:center}
+    .hz-i2{animation-delay:.15s}
+    .hz-i3{animation-delay:.3s}
+    .hz-i4{animation-delay:.4s}
+    @keyframes hz-breathe{0%,100%{opacity:1}50%{opacity:.55}}
+    @keyframes hz-draw{from{transform:scaleX(0)}}
+    @keyframes hz-rise{from{opacity:0;transform:translateY(6px)}}
+    @keyframes hz-pulse{0%,100%{transform:scale(1);opacity:1}50%{transform:scale(1.3);opacity:.7}}
+    @keyframes hz-float{0%,100%{transform:translateY(0)}50%{transform:translateY(-3px)}}
+    @keyframes hz-glow{0%,100%{opacity:1}50%{opacity:.6}}
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+  </style>
+  <circle class="hz-halo1" cx="150" cy="106" r="98" fill="none" stroke="#4DA3FF" stroke-opacity="0.16" stroke-width="1.5"/>
+  <circle class="hz-halo2" cx="150" cy="106" r="70" fill="none" stroke="#4DA3FF" stroke-opacity="0.24" stroke-width="1.5"/>
+  <circle class="hz-halo3" cx="150" cy="106" r="44" fill="#4DA3FF" fill-opacity="0.07"/>
+  <g>
+    <animateTransform attributeName="transform" type="rotate" values="0 150 106;360 150 106" dur="40s" repeatCount="indefinite"/>
+    <circle cx="150" cy="8" r="3.5" fill="#8985FF" opacity="0.85"/>
+    <circle cx="65.1" cy="155" r="3" fill="#2DC79A" opacity="0.85"/>
+  </g>
+  <g>
+    <animateTransform attributeName="transform" type="rotate" values="0 150 106;-360 150 106" dur="28s" repeatCount="indefinite"/>
+    <circle cx="220" cy="106" r="3.2" fill="#4DA3FF" opacity="0.85"/>
+  </g>
+  <text class="hz-in" x="48" y="122" font-size="64" font-weight="700" letter-spacing="-1.5" fill="#F5F5F7">Leo</text>
+  <rect class="hz-bar" x="50" y="136" width="118" height="4" rx="2" fill="#4DA3FF"/>
+  <text class="hz-in hz-i2" x="50" y="178" font-size="20" font-weight="500" fill="#C7C7CC">AI 系统,为生产而打造。</text>
+  <circle class="hz-dot" cx="54" cy="202" r="4" fill="#8985FF"/>
   <text x="64" y="206" font-size="13" fill="#8E8E93">AI 智能体</text>
-  <circle cx="150" cy="202" r="4" fill="#4DA3FF"/>
+  <circle class="hz-dot hz-d2" cx="150" cy="202" r="4" fill="#4DA3FF"/>
   <text x="160" y="206" font-size="13" fill="#8E8E93">云原生 AI</text>
-  <circle cx="252" cy="202" r="4" fill="#2DC79A"/>
+  <circle class="hz-dot hz-d3" cx="252" cy="202" r="4" fill="#2DC79A"/>
   <text x="262" y="206" font-size="13" fill="#8E8E93">推理加速</text>
   <line x1="48" y1="232" x2="430" y2="232" stroke="#2A2A33" stroke-width="1"/>
-  <rect x="48" y="248" width="150" height="28" rx="14" fill="#1E1E25" stroke="#2A2A33" stroke-width="1"/>
-  <text x="123" y="266" text-anchor="middle" font-size="12" fill="#A0A0A8">Bison 构建者</text>
-  <rect x="210" y="248" width="196" height="28" rx="14" fill="#1E1E25" stroke="#2A2A33" stroke-width="1"/>
-  <text x="308" y="266" text-anchor="middle" font-size="12" fill="#A0A0A8">著有 2 本工程 Cookbook</text>
+  <rect class="hz-in hz-i3" x="48" y="248" width="120" height="28" rx="14" fill="#1E1E25" stroke="#2A2A33" stroke-width="1"/>
+  <path class="hz-in hz-i3" d="M68 256L73.2 259L73.2 265L68 268L62.8 265L62.8 259ZM62.8 259L68 262L73.2 259M68 262L68 268" fill="none" stroke="#A0A0A8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text class="hz-in hz-i3" x="83" y="266" font-size="12" fill="#A0A0A8">Bison 构建者</text>
+  <rect class="hz-in hz-i4" x="182" y="248" width="182" height="28" rx="14" fill="#1E1E25" stroke="#2A2A33" stroke-width="1"/>
+  <path class="hz-in hz-i4" d="M195 258.6C197.5 257.4 200 257.4 202 258.8C204 257.4 206.5 257.4 209 258.6L209 265.4C206.5 264.2 204 264.2 202 265.6C200 264.2 197.5 264.2 195 265.4ZM202 258.8L202 265.6" fill="none" stroke="#A0A0A8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text class="hz-in hz-i4" x="217" y="266" font-size="12" fill="#A0A0A8">著有 2 本工程 Cookbook</text>
   <!-- 三层栈 -->
+  <line x1="629" y1="81" x2="575" y2="195" stroke="#A0A0A8" stroke-opacity="0.3" stroke-width="1"/>
+  <g class="hz-layer">
   <rect x="600" y="64" width="216" height="56" rx="12" fill="#8985FF" fill-opacity="0.16" stroke="#8985FF" stroke-width="1.5"/>
-  <circle cx="624" cy="92" r="6" fill="#8985FF"/>
+  <circle class="hz-ldot" cx="624" cy="92" r="6" fill="#8985FF"/>
   <text x="642" y="96" font-size="13" font-weight="500" fill="#B7B4FF">AI 智能体</text>
+  </g>
+  <g class="hz-layer hz-l2">
   <rect x="578" y="110" width="216" height="56" rx="12" fill="#4DA3FF" fill-opacity="0.16" stroke="#4DA3FF" stroke-width="1.5"/>
-  <circle cx="602" cy="138" r="6" fill="#4DA3FF"/>
+  <circle class="hz-ldot hz-g2" cx="602" cy="138" r="6" fill="#4DA3FF"/>
   <text x="620" y="142" font-size="13" font-weight="500" fill="#9CC9FF">推理加速</text>
+  </g>
+  <g class="hz-layer hz-l3">
   <rect x="556" y="156" width="216" height="56" rx="12" fill="#2DC79A" fill-opacity="0.16" stroke="#2DC79A" stroke-width="1.5"/>
-  <circle cx="580" cy="184" r="6" fill="#2DC79A"/>
+  <circle class="hz-ldot hz-g3" cx="580" cy="184" r="6" fill="#2DC79A"/>
   <text x="598" y="188" font-size="13" font-weight="500" fill="#86E3C6">云原生</text>
+  </g>
   <text x="664" y="244" text-anchor="middle" font-size="12" fill="#8E8E93">一套技术栈 · 三层</text>
 </svg>

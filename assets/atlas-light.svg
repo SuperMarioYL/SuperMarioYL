@@ -1,8 +1,34 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 360" width="880" height="360" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" role="img" aria-label="Agent platform: user to orchestrator to tools and memory to inference, on a cloud-native substrate, instrumented by eval and observability">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 360" width="880" height="360" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" role="img" aria-label="Agent platform: user to orchestrator to tools and memory to inference on a cloud-native substrate; traces flow into eval and observability, feedback closes the loop, guardrails gate actions">
   <defs>
     <marker id="ah-l" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#B9B9C2"/></marker>
+    <marker id="af-l" markerWidth="7" markerHeight="7" refX="5" refY="2.5" orient="auto"><path d="M0,0 L5,2.5 L0,5 Z" fill="#B9B9C2"/></marker>
   </defs>
-  <circle cx="300" cy="180" r="140" fill="none" stroke="#0071E3" stroke-opacity="0.05" stroke-width="1.5"/>
+  <style>
+    .az-e { animation: az-enter 0.55s cubic-bezier(0.4,0,0.2,1) backwards; transform-box: fill-box; transform-origin: center; }
+    .az-e2 { animation-delay: 0.08s; }
+    .az-e3 { animation-delay: 0.16s; }
+    .az-e4 { animation-delay: 0.24s; }
+    .az-e5 { animation-delay: 0.32s; }
+    .az-e6 { animation-delay: 0.4s; }
+    .az-e7 { animation-delay: 0.48s; }
+    .az-e7m { animation: az-enter 0.55s cubic-bezier(0.4,0,0.2,1) 0.48s backwards, az-march9 1.6s linear infinite; transform-box: fill-box; transform-origin: center; }
+    @keyframes az-enter { from { opacity: 0; transform: translateY(4px); } }
+    .az-p { animation: az-pulse 2.6s linear infinite; }
+    .az-p1 { animation-delay: 0.6s; }
+    .az-p2 { animation-delay: 1.5s; }
+    .az-p3 { animation-delay: 1.65s; }
+    .az-p4 { animation-delay: 2.4s; }
+    .az-p5 { animation-delay: 2.55s; }
+    .az-p6 { animation-delay: 3.3s; }
+    @keyframes az-pulse { from { stroke-dashoffset: 118; } to { stroke-dashoffset: 12; } }
+    .az-m8 { animation: az-march8 1.6s linear infinite; }
+    @keyframes az-march8 { from { stroke-dashoffset: 8; } to { stroke-dashoffset: 0; } }
+    @keyframes az-march9 { from { stroke-dashoffset: 9; } to { stroke-dashoffset: 0; } }
+    .az-c { animation: az-breathe 9s ease-in-out infinite; }
+    @keyframes az-breathe { 0%, 100% { opacity: 1; } 50% { opacity: 0.5; } }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+  </style>
+  <circle class="az-c" cx="300" cy="180" r="140" fill="none" stroke="#0071E3" stroke-opacity="0.05" stroke-width="1.5"/>
 
   <!-- connectors -->
   <g stroke="#C9C9D0" stroke-width="1.5" fill="none">
@@ -14,41 +40,64 @@
     <line x1="748" y1="200" x2="748" y2="282" marker-end="url(#ah-l)"/>
   </g>
   <g stroke="#B9B9C2" stroke-width="1.3" stroke-dasharray="4 4" fill="none">
-    <line x1="486" y1="64" x2="320" y2="112"/>
-    <line x1="576" y1="64" x2="712" y2="136"/>
+    <line class="az-m8" x1="486" y1="64" x2="320" y2="112" marker-end="url(#af-l)"/>
+    <line class="az-m8" x1="712" y1="140" x2="576" y2="64" marker-end="url(#af-l)"/>
+  </g>
+
+  <!-- data pulses (animation overlays) -->
+  <g fill="none" stroke-width="2" stroke-linecap="round" stroke-dasharray="10 96" stroke-dashoffset="12">
+    <line class="az-p az-p1" stroke="#5E5CE6" x1="146" y1="180" x2="180" y2="180"/>
+    <line class="az-p az-p2" stroke="#5E5CE6" x1="384" y1="158" x2="426" y2="128"/>
+    <line class="az-p az-p3" stroke="#5E5CE6" x1="384" y1="208" x2="426" y2="218"/>
+    <line class="az-p az-p4" stroke="#10A37F" x1="602" y1="124" x2="644" y2="158"/>
+    <line class="az-p az-p5" stroke="#10A37F" x1="602" y1="218" x2="644" y2="184"/>
+    <line class="az-p az-p6" stroke="#0071E3" x1="748" y1="200" x2="748" y2="282"/>
   </g>
 
   <!-- Eval & Observability (cross-cutting) -->
-  <rect x="430" y="26" width="200" height="38" rx="12" fill="#6E6E73" fill-opacity="0.07" stroke="#B9B9C2" stroke-width="1" stroke-dasharray="5 4"/>
-  <text x="530" y="50" text-anchor="middle" font-size="12" font-weight="500" fill="#5A5A60">Eval &amp; Observability</text>
+  <rect class="az-e7m" x="430" y="26" width="200" height="38" rx="12" fill="#6E6E73" fill-opacity="0.07" stroke="#B9B9C2" stroke-width="1" stroke-dasharray="5 4"/>
+  <text class="az-e az-e7" x="530" y="50" text-anchor="middle" font-size="12" font-weight="500" fill="#5A5A60">Eval &amp; Observability</text>
+  <text class="az-e az-e7" x="382" y="78" text-anchor="middle" font-size="10" fill="#6E6E73">feedback</text>
+  <text class="az-e az-e7" x="676" y="98" text-anchor="middle" font-size="10" fill="#6E6E73">traces</text>
 
   <!-- User -->
-  <rect x="26" y="150" width="120" height="60" rx="14" fill="#6E6E73" fill-opacity="0.07" stroke="#B0B0B5" stroke-width="1"/>
-  <text x="86" y="186" text-anchor="middle" font-size="14" font-weight="500" fill="#424245">User / Task</text>
+  <rect class="az-e" x="26" y="150" width="120" height="60" rx="14" fill="#6E6E73" fill-opacity="0.07" stroke="#B0B0B5" stroke-width="1"/>
+  <text class="az-e" x="86" y="186" text-anchor="middle" font-size="14" font-weight="500" fill="#424245">User / Task</text>
 
   <!-- Orchestrator -->
-  <rect x="184" y="112" width="200" height="132" rx="16" fill="#5E5CE6" fill-opacity="0.10" stroke="#5E5CE6" stroke-width="1.5"/>
-  <text x="284" y="146" text-anchor="middle" font-size="15" font-weight="600" fill="#4B3FC4">Orchestrator</text>
-  <text x="284" y="166" text-anchor="middle" font-size="11" fill="#6E6E73">planner · critic · reflection</text>
-  <rect x="200" y="184" width="78" height="26" rx="13" fill="#5E5CE6" fill-opacity="0.14" stroke="#5E5CE6" stroke-opacity="0.4"/><text x="239" y="201" text-anchor="middle" font-size="11" fill="#4B3FC4">Planner</text>
-  <rect x="288" y="184" width="84" height="26" rx="13" fill="#5E5CE6" fill-opacity="0.14" stroke="#5E5CE6" stroke-opacity="0.4"/><text x="330" y="201" text-anchor="middle" font-size="11" fill="#4B3FC4">Critic loop</text>
+  <rect class="az-e az-e2" x="184" y="112" width="200" height="140" rx="16" fill="#5E5CE6" fill-opacity="0.10" stroke="#5E5CE6" stroke-width="1.5"/>
+  <text class="az-e az-e2" x="284" y="146" text-anchor="middle" font-size="15" font-weight="600" fill="#4B3FC4">Orchestrator</text>
+  <text class="az-e az-e2" x="284" y="166" text-anchor="middle" font-size="11" fill="#6E6E73">planner · critic · reflection</text>
+  <rect class="az-e az-e2" x="200" y="184" width="78" height="26" rx="13" fill="#5E5CE6" fill-opacity="0.14" stroke="#5E5CE6" stroke-opacity="0.4"/><text class="az-e az-e2" x="239" y="201" text-anchor="middle" font-size="11" fill="#4B3FC4">Planner</text>
+  <rect class="az-e az-e2" x="288" y="184" width="84" height="26" rx="13" fill="#5E5CE6" fill-opacity="0.14" stroke="#5E5CE6" stroke-opacity="0.4"/><text class="az-e az-e2" x="330" y="201" text-anchor="middle" font-size="11" fill="#4B3FC4">Critic loop</text>
+  <rect class="az-e az-e2" x="238" y="218" width="92" height="26" rx="13" fill="#5E5CE6" fill-opacity="0.14" stroke="#5E5CE6" stroke-opacity="0.4"/><text class="az-e az-e2" x="284" y="235" text-anchor="middle" font-size="11" fill="#4B3FC4">Guardrails</text>
 
   <!-- Tools / MCP -->
-  <rect x="430" y="92" width="172" height="58" rx="14" fill="#5E5CE6" fill-opacity="0.10" stroke="#5E5CE6" stroke-width="1.5"/>
-  <text x="516" y="118" text-anchor="middle" font-size="14" font-weight="600" fill="#4B3FC4">Tools / MCP</text>
-  <text x="516" y="136" text-anchor="middle" font-size="11" fill="#6E6E73">schema-validated calls</text>
+  <rect class="az-e az-e3" x="430" y="92" width="172" height="58" rx="14" fill="#5E5CE6" fill-opacity="0.10" stroke="#5E5CE6" stroke-width="1.5"/>
+  <text class="az-e az-e3" x="516" y="118" text-anchor="middle" font-size="14" font-weight="600" fill="#4B3FC4">Tools / MCP</text>
+  <text class="az-e az-e3" x="516" y="136" text-anchor="middle" font-size="11" fill="#6E6E73">schema-validated calls</text>
 
   <!-- Memory + RAG -->
-  <rect x="430" y="186" width="172" height="58" rx="14" fill="#5E5CE6" fill-opacity="0.10" stroke="#5E5CE6" stroke-width="1.5"/>
-  <text x="516" y="212" text-anchor="middle" font-size="14" font-weight="600" fill="#4B3FC4">Memory + RAG</text>
-  <text x="516" y="230" text-anchor="middle" font-size="11" fill="#6E6E73">vector DB · GraphRAG</text>
+  <rect class="az-e az-e4" x="430" y="186" width="172" height="58" rx="14" fill="#5E5CE6" fill-opacity="0.10" stroke="#5E5CE6" stroke-width="1.5"/>
+  <text class="az-e az-e4" x="516" y="212" text-anchor="middle" font-size="14" font-weight="600" fill="#4B3FC4">Memory + RAG</text>
+  <text class="az-e az-e4" x="516" y="230" text-anchor="middle" font-size="11" fill="#6E6E73">vector DB · GraphRAG</text>
 
   <!-- Inference -->
-  <rect x="648" y="140" width="200" height="58" rx="14" fill="#10A37F" fill-opacity="0.10" stroke="#10A37F" stroke-width="1.5"/>
-  <text x="748" y="166" text-anchor="middle" font-size="14" font-weight="600" fill="#0B6B53">Inference</text>
-  <text x="748" y="184" text-anchor="middle" font-size="11" fill="#6E6E73">vLLM · KV-cache · batching</text>
+  <rect class="az-e az-e5" x="648" y="140" width="200" height="58" rx="14" fill="#10A37F" fill-opacity="0.10" stroke="#10A37F" stroke-width="1.5"/>
+  <text class="az-e az-e5" x="748" y="166" text-anchor="middle" font-size="14" font-weight="600" fill="#0B6B53">Inference</text>
+  <text class="az-e az-e5" x="748" y="184" text-anchor="middle" font-size="11" fill="#6E6E73">vLLM · KV-cache · batching</text>
 
   <!-- Cloud Native substrate -->
-  <rect x="184" y="284" width="664" height="54" rx="16" fill="#0071E3" fill-opacity="0.10" stroke="#0071E3" stroke-width="1.5"/>
-  <text x="516" y="316" text-anchor="middle" font-size="14" font-weight="600" fill="#0A4F9E">Cloud Native AI  —  Kubernetes · GPU scheduling · multi-tenant serving</text>
+  <g class="az-e az-e6">
+    <rect x="184" y="284" width="664" height="54" rx="16" fill="#0071E3" fill-opacity="0.10" stroke="#0071E3" stroke-width="1.5"/>
+    <text x="212" y="316" font-size="14" font-weight="600" fill="#0A4F9E">Cloud Native AI</text>
+    <g fill="none" stroke="#0A4F9E" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+      <g transform="translate(374,303)"><circle cx="8" cy="8" r="6"/><circle cx="8" cy="8" r="1.8"/><path d="M8 2v4.2M8 9.8V14M2 8h4.2M9.8 8H14"/></g>
+      <g transform="translate(508,303)"><rect x="3.2" y="3.2" width="9.6" height="9.6" rx="1.5"/><rect x="6.2" y="6.2" width="3.6" height="3.6"/><path d="M5.5 3.2V1.4M10.5 3.2V1.4M5.5 14.6V12.8M10.5 14.6V12.8M3.2 5.5H1.4M3.2 10.5H1.4M12.8 5.5H14.6M12.8 10.5H14.6"/></g>
+      <g transform="translate(662,303)"><path d="M8 3l6 3.2-6 3.2-6-3.2z"/><path d="M2 9.6l6 3.2 6-3.2"/></g>
+    </g>
+    <text x="396" y="316" font-size="12" font-weight="500" fill="#0A4F9E">Kubernetes</text>
+    <text x="530" y="316" font-size="12" font-weight="500" fill="#0A4F9E">GPU scheduling</text>
+    <text x="684" y="316" font-size="12" font-weight="500" fill="#0A4F9E">multi-tenant serving</text>
+  </g>
 </svg>

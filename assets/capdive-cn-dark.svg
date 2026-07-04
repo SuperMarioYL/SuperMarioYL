@@ -1,33 +1,80 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 300" width="880" height="300" font-family="'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', Inter, -apple-system, sans-serif" role="img" aria-label="能力深潜：智能体循环、云原生拓扑、推理延迟与吞吐">
   <defs>
     <marker id="cdcd-a" markerWidth="7" markerHeight="7" refX="5" refY="2.5" orient="auto"><path d="M0,0 L5,2.5 L0,5 Z" fill="#8E8E93"/></marker>
+    <style>
+      .cdv-en{animation:cdvEnter .7s cubic-bezier(0.4,0,0.2,1) backwards;transform-box:fill-box;transform-origin:center}
+      .cdv-en2{animation-delay:.15s}
+      .cdv-en3{animation-delay:.3s}
+      .cdv-halo{animation:cdvBreathe 6s ease-in-out infinite}
+      .cdv-hd2{animation-delay:.8s}
+      .cdv-hd3{animation-delay:1.6s}
+      .cdv-dot{animation:cdvDot 3.2s ease-in-out infinite}
+      .cdv-chip{animation:cdvChip 4.5s ease-in-out infinite}
+      .cdv-c2{animation-delay:1.5s}
+      .cdv-c3{animation-delay:3s}
+      .cdv-loop{animation:cdvLoop 4.5s linear infinite}
+      .cdv-fa{animation:cdvFlowA 2.2s linear infinite}
+      .cdv-fb{animation:cdvFlowB 2.2s linear infinite}
+      .cdv-f2{animation-delay:.3s}
+      .cdv-f3{animation-delay:.6s}
+      .cdv-pod{animation:cdvPod 4.5s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+      .cdv-p2{animation-delay:.5s}
+      .cdv-p3{animation-delay:1s}
+      .cdv-bolt{animation:cdvBolt 4s ease-in-out infinite}
+      .cdv-tool{animation:cdvTool 6s linear infinite}
+      .cdv-ghost{animation:cdvGhost 6s ease-in-out infinite}
+      .cdv-tok{animation:cdvTok 2.4s ease-in-out infinite}
+      .cdv-t2{animation-delay:.25s}
+      .cdv-t3{animation-delay:.5s}
+      .cdv-t4{animation-delay:.75s}
+      .cdv-t5{animation-delay:1s}
+      @keyframes cdvEnter{from{opacity:0;transform:translateY(4px)}to{opacity:1;transform:translateY(0)}}
+      @keyframes cdvBreathe{0%,100%{opacity:1}50%{opacity:.7}}
+      @keyframes cdvDot{0%,100%{opacity:1}50%{opacity:.55}}
+      @keyframes cdvChip{0%,22%,100%{fill-opacity:.18}8%{fill-opacity:.34}}
+      @keyframes cdvLoop{0%,70%{stroke-dashoffset:10}100%{stroke-dashoffset:-110}}
+      @keyframes cdvFlowA{from{stroke-dashoffset:9}to{stroke-dashoffset:-88}}
+      @keyframes cdvFlowB{from{stroke-dashoffset:6}to{stroke-dashoffset:-40}}
+      @keyframes cdvPod{0%,100%{transform:scale(1)}50%{transform:scale(1.04)}}
+      @keyframes cdvBolt{0%,100%{opacity:1}50%{opacity:.8}}
+      @keyframes cdvTool{0%,60%{stroke-dashoffset:8}100%{stroke-dashoffset:-108}}
+      @keyframes cdvGhost{0%,100%{opacity:0}50%{opacity:.55}}
+      @keyframes cdvTok{0%,60%,100%{opacity:.3}20%{opacity:1}}
+      @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+    </style>
   </defs>
 
+  <g class="cdv-en">
   <g transform="translate(10,10)">
     <rect width="272" height="280" rx="16" fill="#1E1E25" stroke="#2A2A33"/>
-    <circle cx="40" cy="48" r="20" fill="none" stroke="#8985FF" stroke-opacity="0.35" stroke-width="1.5"/>
+    <circle class="cdv-halo" cx="40" cy="48" r="20" fill="none" stroke="#8985FF" stroke-opacity="0.35" stroke-width="1.5"/>
     <rect x="29" y="42" width="22" height="18" rx="4" fill="none" stroke="#8985FF" stroke-width="1.6"/>
     <circle cx="36" cy="51" r="1.8" fill="#8985FF"/><circle cx="44" cy="51" r="1.8" fill="#8985FF"/>
-    <line x1="40" y1="42" x2="40" y2="36" stroke="#8985FF" stroke-width="1.6"/><circle cx="40" cy="35" r="1.7" fill="#8985FF"/>
+    <line x1="40" y1="42" x2="40" y2="36" stroke="#8985FF" stroke-width="1.6"/><circle class="cdv-dot" cx="40" cy="35" r="1.7" fill="#8985FF"/>
     <text x="18" y="90" font-size="17" font-weight="600" fill="#F5F5F7">AI 智能体</text>
     <text x="18" y="108" font-size="12" fill="#8E8E93">AI Agent</text>
     <rect x="18" y="118" width="28" height="3" rx="1.5" fill="#8985FF"/>
     <text x="18" y="142" font-size="12" fill="#C7C7CC">规划 · 调用工具 · 反思 · 评测</text>
     <rect x="16" y="156" width="240" height="72" rx="10" fill="#15161C" stroke="#2A2A33"/>
     <path d="M196,180 C196,166 70,166 56,180" fill="none" stroke="#8E8E93" stroke-width="1.2" marker-end="url(#cdcd-a)"/>
-    <rect x="30" y="186" width="46" height="22" rx="11" fill="#8985FF" fill-opacity="0.18"/><text x="53" y="201" text-anchor="middle" font-size="11" fill="#B7B4FF">规划</text>
+    <path class="cdv-loop" d="M196,180 C196,166 70,166 56,180" pathLength="100" fill="none" stroke="#8985FF" stroke-width="2" stroke-linecap="round" stroke-dasharray="10 110" stroke-dashoffset="10"/>
+    <rect class="cdv-chip" x="30" y="186" width="46" height="22" rx="11" fill="#8985FF" fill-opacity="0.18"/><text x="53" y="201" text-anchor="middle" font-size="11" fill="#B7B4FF">规划</text>
     <line x1="78" y1="197" x2="92" y2="197" stroke="#8E8E93" stroke-width="1.2" marker-end="url(#cdcd-a)"/>
-    <rect x="96" y="186" width="42" height="22" rx="11" fill="#8985FF" fill-opacity="0.18"/><text x="117" y="201" text-anchor="middle" font-size="11" fill="#B7B4FF">行动</text>
+    <rect class="cdv-chip cdv-c2" x="96" y="186" width="42" height="22" rx="11" fill="#8985FF" fill-opacity="0.18"/><text x="117" y="201" text-anchor="middle" font-size="11" fill="#B7B4FF">行动</text>
     <line x1="140" y1="197" x2="154" y2="197" stroke="#8E8E93" stroke-width="1.2" marker-end="url(#cdcd-a)"/>
-    <rect x="158" y="186" width="64" height="22" rx="11" fill="#8985FF" fill-opacity="0.18"/><text x="190" y="201" text-anchor="middle" font-size="11" fill="#B7B4FF">反思</text>
+    <rect class="cdv-chip cdv-c3" x="158" y="186" width="64" height="22" rx="11" fill="#8985FF" fill-opacity="0.18"/><text x="190" y="201" text-anchor="middle" font-size="11" fill="#B7B4FF">反思</text>
+    <path d="M117,210 C117,230 40,228 40,246" fill="none" stroke="#8985FF" stroke-opacity="0.45" stroke-width="1" stroke-dasharray="1 4" stroke-linecap="round"/>
+    <path class="cdv-tool" d="M117,210 C117,230 40,228 40,246" pathLength="100" fill="none" stroke="#8985FF" stroke-width="1.6" stroke-linecap="round" stroke-dasharray="8 108" stroke-dashoffset="8"/>
     <rect x="18" y="248" width="44" height="22" rx="11" fill="#8985FF" fill-opacity="0.16" stroke="#8985FF" stroke-opacity="0.40"/><text x="40" y="263" text-anchor="middle" font-size="11" fill="#B7B4FF">MCP</text>
     <rect x="70" y="248" width="44" height="22" rx="11" fill="#8985FF" fill-opacity="0.16" stroke="#8985FF" stroke-opacity="0.40"/><text x="92" y="263" text-anchor="middle" font-size="11" fill="#B7B4FF">RAG</text>
     <rect x="122" y="248" width="48" height="22" rx="11" fill="#8985FF" fill-opacity="0.16" stroke="#8985FF" stroke-opacity="0.40"/><text x="146" y="263" text-anchor="middle" font-size="11" fill="#B7B4FF">评测</text>
   </g>
+  </g>
 
+  <g class="cdv-en cdv-en2">
   <g transform="translate(304,10)">
     <rect width="272" height="280" rx="16" fill="#1E1E25" stroke="#2A2A33"/>
-    <circle cx="40" cy="48" r="20" fill="none" stroke="#4DA3FF" stroke-opacity="0.35" stroke-width="1.5"/>
+    <circle class="cdv-halo cdv-hd2" cx="40" cy="48" r="20" fill="none" stroke="#4DA3FF" stroke-opacity="0.35" stroke-width="1.5"/>
     <circle cx="34" cy="51" r="7" fill="#4DA3FF"/><circle cx="46" cy="51" r="9" fill="#4DA3FF"/><circle cx="40" cy="44" r="8" fill="#4DA3FF"/><rect x="27" y="48" width="26" height="8" rx="4" fill="#4DA3FF"/>
     <text x="18" y="90" font-size="17" font-weight="600" fill="#F5F5F7">云原生 AI</text>
     <text x="18" y="108" font-size="12" fill="#8E8E93">Cloud Native AI</text>
@@ -35,32 +82,49 @@
     <text x="18" y="142" font-size="12" fill="#C7C7CC">在 K8s 上调度 · 服务 · 伸缩</text>
     <rect x="16" y="156" width="240" height="72" rx="10" fill="#15161C" stroke="#2A2A33"/>
     <rect x="92" y="164" width="88" height="20" rx="6" fill="#4DA3FF" fill-opacity="0.18"/><text x="136" y="178" text-anchor="middle" font-size="10" fill="#9CC9FF">调度器</text>
-    <line x1="136" y1="184" x2="60" y2="200" stroke="#3E5878" stroke-width="1"/><line x1="136" y1="184" x2="136" y2="200" stroke="#3E5878" stroke-width="1"/><line x1="136" y1="184" x2="212" y2="200" stroke="#3E5878" stroke-width="1"/>
-    <rect x="44" y="200" width="34" height="22" rx="6" fill="#4DA3FF" fill-opacity="0.20"/><text x="61" y="215" text-anchor="middle" font-size="9" fill="#9CC9FF">pod</text>
-    <rect x="119" y="200" width="34" height="22" rx="6" fill="#4DA3FF" fill-opacity="0.20"/><text x="136" y="215" text-anchor="middle" font-size="9" fill="#9CC9FF">pod</text>
-    <rect x="195" y="200" width="34" height="22" rx="6" fill="#4DA3FF" fill-opacity="0.20"/><text x="212" y="215" text-anchor="middle" font-size="9" fill="#9CC9FF">pod</text>
+    <line x1="136" y1="184" x2="52" y2="200" stroke="#3E5878" stroke-width="1"/><line x1="136" y1="184" x2="108" y2="200" stroke="#3E5878" stroke-width="1"/><line x1="136" y1="184" x2="164" y2="200" stroke="#3E5878" stroke-width="1"/>
+    <line class="cdv-fa" x1="136" y1="184" x2="52" y2="200" stroke="#4DA3FF" stroke-width="2" stroke-linecap="round" stroke-dasharray="9 100" stroke-dashoffset="9"/>
+    <line class="cdv-fb cdv-f2" x1="136" y1="184" x2="108" y2="200" stroke="#4DA3FF" stroke-width="2" stroke-linecap="round" stroke-dasharray="6 100" stroke-dashoffset="6"/>
+    <line class="cdv-fb cdv-f3" x1="136" y1="184" x2="164" y2="200" stroke="#4DA3FF" stroke-width="2" stroke-linecap="round" stroke-dasharray="6 100" stroke-dashoffset="6"/>
+    <rect class="cdv-pod" x="35" y="200" width="34" height="22" rx="6" fill="#4DA3FF" fill-opacity="0.20"/><text x="52" y="215" text-anchor="middle" font-size="9" fill="#9CC9FF">pod</text>
+    <rect class="cdv-pod cdv-p2" x="91" y="200" width="34" height="22" rx="6" fill="#4DA3FF" fill-opacity="0.20"/><text x="108" y="215" text-anchor="middle" font-size="9" fill="#9CC9FF">pod</text>
+    <rect class="cdv-pod cdv-p3" x="147" y="200" width="34" height="22" rx="6" fill="#4DA3FF" fill-opacity="0.20"/><text x="164" y="215" text-anchor="middle" font-size="9" fill="#9CC9FF">pod</text>
+    <g class="cdv-ghost" opacity="0.45">
+      <line x1="136" y1="184" x2="220" y2="200" stroke="#3E5878" stroke-width="1" stroke-dasharray="3 3"/>
+      <rect x="203" y="200" width="34" height="22" rx="6" fill="none" stroke="#4DA3FF" stroke-opacity="0.55" stroke-width="1" stroke-dasharray="3 3"/>
+      <text x="220" y="215" text-anchor="middle" font-size="9" fill="#9CC9FF" fill-opacity="0.75">pod</text>
+    </g>
     <rect x="18" y="248" width="46" height="22" rx="11" fill="#4DA3FF" fill-opacity="0.16" stroke="#4DA3FF" stroke-opacity="0.40"/><text x="41" y="263" text-anchor="middle" font-size="11" fill="#9CC9FF">K8s</text>
     <rect x="72" y="248" width="48" height="22" rx="11" fill="#4DA3FF" fill-opacity="0.16" stroke="#4DA3FF" stroke-opacity="0.40"/><text x="96" y="263" text-anchor="middle" font-size="11" fill="#9CC9FF">GPU</text>
     <rect x="128" y="248" width="74" height="22" rx="11" fill="#4DA3FF" fill-opacity="0.16" stroke="#4DA3FF" stroke-opacity="0.40"/><text x="165" y="263" text-anchor="middle" font-size="11" fill="#9CC9FF">服务</text>
   </g>
+  </g>
 
+  <g class="cdv-en cdv-en3">
   <g transform="translate(598,10)">
     <rect width="272" height="280" rx="16" fill="#1E1E25" stroke="#2A2A33"/>
-    <circle cx="40" cy="48" r="20" fill="none" stroke="#2DC79A" stroke-opacity="0.35" stroke-width="1.5"/>
-    <polygon points="44,36 30,53 39,53 36,62 50,45 41,45" fill="#2DC79A"/>
+    <circle class="cdv-halo cdv-hd3" cx="40" cy="48" r="20" fill="none" stroke="#2DC79A" stroke-opacity="0.35" stroke-width="1.5"/>
+    <polygon class="cdv-bolt" points="44,36 30,53 39,53 36,62 50,45 41,45" fill="#2DC79A"/>
     <text x="18" y="90" font-size="17" font-weight="600" fill="#F5F5F7">推理加速</text>
     <text x="18" y="108" font-size="12" fill="#8E8E93">Inference</text>
     <rect x="18" y="118" width="28" height="3" rx="1.5" fill="#2DC79A"/>
     <text x="18" y="142" font-size="12" fill="#C7C7CC">在服务层压低延迟与成本</text>
-    <rect x="16" y="156" width="240" height="72" rx="10" fill="#15161C" stroke="#2A2A33"/>
-    <text x="30" y="180" font-size="10" fill="#8E8E93">延迟</text>
-    <rect x="92" y="172" width="40" height="9" rx="4" fill="#2DC79A" fill-opacity="0.50"/>
+    <rect x="16" y="156" width="240" height="80" rx="10" fill="#15161C" stroke="#2A2A33"/>
+    <text x="30" y="180" font-size="10" fill="#8E8E93">TTFT</text>
+    <rect x="92" y="172" width="40" height="9" rx="4" fill="#2DC79A" fill-opacity="0.50"><animate attributeName="width" values="40;54;40;40" keyTimes="0;0.3;0.55;1" calcMode="spline" keySplines="0.4 0 0.2 1;0.4 0 0.2 1;0 0 1 1" dur="5s" repeatCount="indefinite"/></rect>
     <text x="150" y="180" font-size="11" fill="#86E3C6">▼ 更低</text>
-    <text x="30" y="208" font-size="10" fill="#8E8E93">吞吐</text>
-    <rect x="110" y="200" width="104" height="9" rx="4" fill="#2DC79A"/>
-    <text x="222" y="208" font-size="11" fill="#86E3C6" text-anchor="end">▲</text>
+    <text x="30" y="208" font-size="10" fill="#8E8E93">tokens/s</text>
+    <rect x="110" y="200" width="104" height="9" rx="4" fill="#2DC79A"><animate attributeName="width" values="104;64;104;104" keyTimes="0;0.3;0.55;1" calcMode="spline" keySplines="0.4 0 0.2 1;0.4 0 0.2 1;0 0 1 1" dur="5s" repeatCount="indefinite"/></rect>
+    <text x="226" y="208" font-size="11" fill="#86E3C6" text-anchor="end">▲</text>
+    <text x="30" y="226" font-size="9" fill="#8E8E93">流式输出</text>
+    <circle class="cdv-tok" cx="110" cy="223" r="1.8" fill="#2DC79A"/>
+    <circle class="cdv-tok cdv-t2" cx="130" cy="223" r="1.8" fill="#2DC79A"/>
+    <circle class="cdv-tok cdv-t3" cx="150" cy="223" r="1.8" fill="#2DC79A"/>
+    <circle class="cdv-tok cdv-t4" cx="170" cy="223" r="1.8" fill="#2DC79A"/>
+    <circle class="cdv-tok cdv-t5" cx="190" cy="223" r="1.8" fill="#2DC79A"/>
     <rect x="18" y="248" width="52" height="22" rx="11" fill="#2DC79A" fill-opacity="0.16" stroke="#2DC79A" stroke-opacity="0.40"/><text x="44" y="263" text-anchor="middle" font-size="11" fill="#86E3C6">vLLM</text>
     <rect x="78" y="248" width="84" height="22" rx="11" fill="#2DC79A" fill-opacity="0.16" stroke="#2DC79A" stroke-opacity="0.40"/><text x="120" y="263" text-anchor="middle" font-size="11" fill="#86E3C6">KV-cache</text>
     <rect x="170" y="248" width="60" height="22" rx="11" fill="#2DC79A" fill-opacity="0.16" stroke="#2DC79A" stroke-opacity="0.40"/><text x="200" y="263" text-anchor="middle" font-size="11" fill="#86E3C6">量化</text>
+  </g>
   </g>
 </svg>
